@@ -1,6 +1,6 @@
 # Crediblebh Skill Assessment
 
-### Client/Course Web Project
+### Getting Started with creating Web application
 
 Create an ASP.net MVC application that calls to a database to bring back all Clients, client courses, and users taking the courses. 
 
@@ -38,7 +38,7 @@ To make Azure Data Studio available in the Launchpad, drag Azure Data Studio.app
 
 ### Running and Debugging
 
-To start debugging any application, always ensure that the configuration is set to Debug. The debug configuration provides a helpful set of tools to support debugging, such as breakpoints, using data visualizers, and viewing the call stack:
+- To start debugging any application, always ensure that the configuration is set to Debug. The debug configuration provides a helpful set of tools to support debugging, such as breakpoints, using data visualizers, and viewing the call stack:
 
 ![alt text](https://docs.microsoft.com/en-us/visualstudio/mac/media/debugging-image_0.png "Logo Title Text 1")
 
