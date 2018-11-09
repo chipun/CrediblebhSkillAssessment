@@ -1,91 +1,28 @@
 # Crediblebh Skill Assessment
 
-# Credible BH Web Application 
+## Getting Started
 
 Create an ASP.net MVC application that calls to a database to bring back all Clients, client courses, and users taking the courses. 
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+####Visual Studio for Mac 
 
-Say what the step will be
+Install Visual Studio for Mac
+Navigate your browser of choice to https://www.visualstudio.com.
 
-```
-Give the example
-```
+From the Download for Mac dropdown, select the edition you would like to install. To start for free, download Visual Studio Community 2017 for Mac. If you already have a Visual Studio Professional or Visual Studio Enterprise subscription, download the edition that matches your subscription.
 
-And repeat
+####Azure Data Studio for Mac
 
-```
-until finished
-```
+Get Azure Data Studio for macOS
 
-End with an example of getting some data out of the system or using it for a little demo
+Download Azure Data Studio for macOS.
+To expand the contents of the zip, double-click it.
+To make Azure Data Studio available in the Launchpad, drag Azure Data Studio.app to the Applications folder.
 
-## Running the tests
 
-Explain how to run the automated tests for this system
+###Clone
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
-Save
+Clone this repo to your local machine using https://github.com/fvcproductions/SOMEREPO
