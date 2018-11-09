@@ -1,6 +1,6 @@
 # Crediblebh Skill Assessment
 
-## Getting Started
+### Client/Course Web Project
 
 Create an ASP.net MVC application that calls to a database to bring back all Clients, client courses, and users taking the courses. 
 
