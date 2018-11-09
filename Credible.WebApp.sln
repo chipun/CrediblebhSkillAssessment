@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credible.WebApp", "Credible.WebApp\Credible.WebApp.csproj", "{45A74830-4003-4F43-B66C-D11E5458CDB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credible.WebApp.Tests", "Credible.WebApp.Tests\Credible.WebApp.Tests.csproj", "{A28CAEA2-3B02-450A-9E84-DC62FA21A878}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45A74830-4003-4F43-B66C-D11E5458CDB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45A74830-4003-4F43-B66C-D11E5458CDB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45A74830-4003-4F43-B66C-D11E5458CDB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45A74830-4003-4F43-B66C-D11E5458CDB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A28CAEA2-3B02-450A-9E84-DC62FA21A878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A28CAEA2-3B02-450A-9E84-DC62FA21A878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A28CAEA2-3B02-450A-9E84-DC62FA21A878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A28CAEA2-3B02-450A-9E84-DC62FA21A878}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

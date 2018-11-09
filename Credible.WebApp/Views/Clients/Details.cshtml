@@ -1,0 +1,123 @@
+﻿<div class="jumbotron">
+    <div class="container">
+
+    </div>
+</div>
+
+
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-8 order-md-1">
+            <h4 class="mb-3">
+                View Client Detail
+            </h4>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <strong>Client Name:</strong>
+                    <p>
+                        @ViewBag.ClientDetail.portal_nm
+                    </p>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <strong>Title:</strong>
+                    <p>
+                        @ViewBag.ClientDetail.title
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <strong>
+                        Keyword:
+                    </strong>
+                    <p>
+                        @ViewBag.ClientDetail.keyword
+                    </p>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <strong>
+                        Notes:
+                    </strong>
+                    <p>
+                        @ViewBag.ClientDetail.notes
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="mb-3">
+                <strong>
+                    Description:
+                </strong>
+                <p>
+                    @Html.Raw(ViewBag.ClientDetail.description)
+
+                </p>
+            </div>
+
+            <div class="mb-3">
+                <strong>
+                    Introduction:
+                </strong>
+                <p>
+                    @Html.Raw(ViewBag.ClientDetail.introduction)
+
+                </p>
+            </div>
+
+
+            <hr class="mb-4">
+
+        </div>
+    </div>
+
+    <div>
+
+        <h3 class="mb-4">
+            Courses
+        </h3>
+    </div>
+
+    <div class="row"></div>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Subject</th>
+                    <th>Topic</th>
+                    <th>Display</th>
+                    <th>Standard</th>
+                    <th>Credit Accptance</th>
+                    <th>Credit Type</th>
+                    <th>Registered By Users</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>@item.course_portal_nm</td>
+                    <td>@item.course_subject</td>
+                    <td>@item.course_topic</td>
+                    <td>@item.course_display_nm</td>
+                    <td>@item.course_default_standard</td>
+                    <td>@item.credit_acceptance</td>
+                    <td>@item.credit_type_nm</td>
+
+                    <td>@Html.ActionLink("View Users", "Details", "Registrations", new { id = item.course_portal_id }, null)</td> 
+           
+                </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+
+
+</div>

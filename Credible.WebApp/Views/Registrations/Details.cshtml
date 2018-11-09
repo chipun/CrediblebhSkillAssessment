@@ -1,0 +1,55 @@
+﻿@using System.Web.Routing;
+
+@{ 
+    ViewBag.Title = "Title";
+
+    string currentFilter = ViewBag.CurrentFilter;
+    string currentSort = ViewBag.CurrentSort;
+    if (string.IsNullOrEmpty(currentSort))
+    {
+        currentSort = "date_desc";
+    }
+}
+
+
+<div class="jumbotron">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-8 order-md-1">
+                <h4 class="mb-3">
+                    <strong>@ViewBag.Course.course_portal_nm </strong> course is registered by the following users.
+                </h4>
+            </div>
+        </div>
+    </div>
+</div> <div class="container">
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                        <th>Last Name</th>
+
+                    @*<th>
+                        @Html.ActionLink("First Name", "Details", Request.QueryString.ToRouteValueDictionary("sortOrder", (string)ViewBag.FirstNameSortParam))
+                        @Html.SortIdentifier(currentSort, "firstName")
+                    </th>
+                    <th>
+                        @Html.ActionLink("Last Name", "Details", Request.QueryString.ToRouteValueDictionary("sortOrder", (string)ViewBag.LastNameSortParam))
+                        @Html.SortIdentifier(currentSort, "lastName")
+                    </th>*@
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.user.first_nm</td>
+                        <td>@item.user.last_nm</td>
+                    </tr>
+                }
+            </tbody>
+        </table> 
+    </div>
+</div>
