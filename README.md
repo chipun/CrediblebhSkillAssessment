@@ -43,4 +43,7 @@ To make Azure Data Studio available in the Launchpad, drag Azure Data Studio.app
 ![alt text](https://docs.microsoft.com/en-us/visualstudio/mac/media/debugging-image_0.png "Logo Title Text 1")
 
 
+### Home Page 
+
+![image](https://drive.google.com/uc?export=view&id=1M4lpqpZH_Qbz11Jv6z44ugvTP-bZHCr3)
 
